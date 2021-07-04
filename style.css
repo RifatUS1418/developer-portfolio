@@ -16,7 +16,7 @@ h2 {
 
 .flexible-container {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .half-width {
@@ -30,7 +30,7 @@ h2 {
 
 .link-button {
     text-decoration: none;
-    background-image: linear-gradient(white, tomato);
+    background-image: linear-gradient(rgb(218, 147, 139), tomato);
     padding: 10px 40px;
     border-radius: 5px;
     color: white;
@@ -45,25 +45,33 @@ h2 {
 .dream-big {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: right;
+    /* background-position: right; */
+    background-position: bottom right;
 }
 
+#first-img {
+     padding-left: 15%;
+}
+
+#dream-developer{
+    padding-right: 10%;
+}
 
 .experience-area {
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: center left;
 }
 
 .experience-item {
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 45%;
+    margin-left: 3%;
+    margin-right: 3%;
     padding: 20px;
     box-shadow: 10px 10px 40px grey;
 }
 .ex-class {
-    margin-left: 40px;
+    margin-left: 70px;
 }
 
 #web-dev-experience {
